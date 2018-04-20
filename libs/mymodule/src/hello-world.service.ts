@@ -5,7 +5,7 @@ export class HelloWorldService {
 
   constructor() { }
 
-  sayHello(): string {
-    return 'Hello world!';
+  sayHello(name: string): string {
+    return 'Hello ' + name;
   }
 }
